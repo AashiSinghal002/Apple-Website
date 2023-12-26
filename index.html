@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Clone</title>
     <link rel="stylesheet" href="./style.css">
+    <script>script.js</script>
 </head>
 <body>
     <div class="container">
@@ -173,21 +174,6 @@
             </div>
         </div>
     </div>
-    <script>
-      let nav_list = document.getElementById('nav-list')
-      let openMenu = document.querySelector('.menuopen')
-      let cross = document.querySelector('.cross')
-      openMenu.addEventListener('click',()=>{
-        nav_list.style.opacity = '100%'
-        openMenu.style.display ='none'
-      })
-      cross.addEventListener('click',()=>{
-        nav_list.style.opacity = '0%';
-        setTimeout(()=>{
-            openMenu.style.display ='block'
-        },400)
-      })
-
-    </script>
+    
 </body>
 </html>
